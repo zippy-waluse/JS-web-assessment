@@ -1,0 +1,100 @@
+#nav{
+list-style-type: none;
+display: flex;
+/* margin-left: 35%; */
+}
+
+#nav2{
+    display: flex;
+    gap: 20%;
+    margin-left: 30%
+    
+ 
+    
+} 
+
+#bd{
+    display: flex;
+    gap: 20%;
+    /* font-size: x-large; */
+}
+
+
+#super{
+    border-radius: 40%;
+    width: 80%;
+    height: 80%;
+}
+
+#icn{
+    display: flex;
+    gap: 10%;
+    margin-left: 2%;
+}
+
+#bt{
+    border-radius: 10%;
+    width: 50%;
+}
+
+#bt2{
+    border-radius: 10%;
+    background-color: red;
+}
+
+#tick{
+    display: flex;
+}
+
+#word{
+    display: flex;
+    gap: 20%;
+}
+
+#bt3{
+    background-color: red;
+    height: 50%;
+    border-radius: 15%;
+    padding: 5%;
+    
+    
+}
+
+#buttn{
+    position: relative;
+}
+#btn{
+    border-radius: 15%;
+}
+
+
+#btn1{
+    border: solid 1px;
+    height: 10%;
+  
+}
+
+
+@media screen and (max-width: 890px) {
+#nav{
+    /* flex-wrap: wrap; */
+}
+
+
+#nav2{
+    /* display: grid; */
+    flex-wrap: wrap;
+    
+    margin-right: 17%;
+}
+
+#icn{
+    display: grid;
+}
+
+
+#super{
+    height: 50%;
+    width: 30;
+}
+}

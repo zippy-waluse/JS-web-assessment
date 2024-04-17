@@ -20,7 +20,7 @@ a{
     color: #000;
 }   
 .active{
-    color:red;
+    color: #ED2647;
 }
 #body{
     margin-left: 10%;
@@ -52,7 +52,7 @@ a{
 
 #bt2{
     border-radius: 10%;
-    background-color: red;
+    background-color: #ED2647;
 }
 
 #tick{
@@ -65,7 +65,7 @@ a{
 }
 
 #bt3{
-    background-color: red;
+    background-color: #ED2647;
     height: 50%;
     border-radius: 15%;
     padding: 5%;

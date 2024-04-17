@@ -2,6 +2,8 @@
 list-style-type: none;
 display: flex;
 font-size: larger;
+list-style-type: none;
+text-decoration: none;
 /* margin-left: 35%; */
 }
 
@@ -13,7 +15,13 @@ font-size: larger;
  
     
 } 
-
+a{
+    text-decoration: none;
+    color: #000;
+}   
+.active{
+    color:red;
+}
 #body{
     margin-left: 10%;
 }

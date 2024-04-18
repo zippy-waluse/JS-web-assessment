@@ -4,6 +4,7 @@ display: flex;
 font-size: larger;
 list-style-type: none;
 text-decoration: none;
+
 /* margin-left: 35%; */
 }
 
@@ -15,6 +16,23 @@ text-decoration: none;
  
     
 } 
+
+#loginbutton{
+    margin-left: 10%;
+    
+}
+
+.loginbutton{
+    gap: 5%;
+    background-color:  #ED2647;
+    border-radius: 30%;
+    
+}
+
+#loginbuttn{
+    margin-left: 15%;
+   
+}
 a{
     text-decoration: none;
     color: #000;
@@ -26,20 +44,20 @@ a{
     margin-left: 10%;
 }
 
-#bd{
+#paragraph1{
     display: flex;
     gap: 20%;
     /* font-size: x-large; */
 }
 
 
-#super{
+#superheroicon{
     border-radius: 40%;
     width: 80%;
     height: 80%;
 }
 
-#icn{
+#logo{
     display: flex;
     gap: 10%;
     margin-left: 2%;
@@ -55,7 +73,7 @@ a{
     background-color: #ED2647;
 }
 
-#tick{
+.icon{
     display: flex;
 }
 
@@ -64,7 +82,7 @@ a{
     gap: 20%;
 }
 
-#bt3{
+#explorebutton{
     background-color: #ED2647;
     height: 50%;
     border-radius: 15%;
@@ -73,7 +91,7 @@ a{
     
 }
 
-#fonts{
+#container{
     font-size: large;
 }
 
@@ -86,14 +104,20 @@ a{
   
 }
 
+#loginbutton{
+    display: flex;
+   
+}
 
-#btn1{
+
+#skillsbutton{
     border: solid 1px;
     height: 10%;
     display: flex;
 
   
 }
+
 
 
 @media screen and (max-width: 890px) {
@@ -118,4 +142,73 @@ a{
     height: 30%;
     width: 30;
 }
+
+.hamburger-menu {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    margin-left: 70%;
+}
+.hamburger-menu div {
+    background-color: #333;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger-menu div:nth-child(1) {
+    margin-top: 35px;
+}
+.hamburger-menu div:nth-child(2) {
+    margin-top: 40px;
+}
+.hamburger-menu div:nth-child(3) {
+    margin-top: 45px;
+}
+.hamburgernavbar{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    padding: 10px 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+}
+.buttons button {
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+}
+.buttons button:hover {
+    background-color: #555;
+}
+.nav.open {
+    transform: scale(1, 1);
+}
+
+
 }
